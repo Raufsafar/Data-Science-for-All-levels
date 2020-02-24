@@ -20,9 +20,9 @@ print('='*50)
 print([x for x in range(1,51) if x%3 == 0])
 
 print('='*50)
-"""Go through the string below and if the length of a word is even print "even!"
 
-"""
+"""Go through the string below and if the length of a word is even print "even!""""
+
 st = 'Print every word in this sentence that has an even number of letters'
 
 for word in st.split():
@@ -45,9 +45,8 @@ for num in range(1,101):
 
 print('='*50)
 
-"""Use a List Comprehension to create a list of the first letters of every word in the string below:
+"""Use a List Comprehension to create a list of the first letters of every word in the string below:"""
 
-"""
 st = 'Create a list of the first letters of every word in this string'
 print([word[0] for word in st.split()])
 
